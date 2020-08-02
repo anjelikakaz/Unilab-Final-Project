@@ -1,0 +1,124 @@
+header{
+	background-color: #E3F6F5
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+.header-block{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav-ul{
+	display: flex;
+}
+.nav-li{
+	margin-right: 20px;
+	font-size: 20px;
+	color: #272343;
+	font-family:'Roboto';
+}
+.banner{
+	position: absolute;
+}
+.title{
+	font-family: 'Poppins', sans-serif;
+	font-size: 84px;
+	color: #FFFFFF; 
+	position: relative;
+	margin-top: 35px;
+	padding: 25px;
+}
+h3{
+	font-size: 30px;
+	color: #272343; 
+    font-family: 'Roboto';
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.text{
+	font-size: 15px;
+    font-family: 'Roboto';
+    color: #272343;	
+    margin-left: 50px;
+    line-height: 20px;
+}
+.block{
+	display: flex;
+	align-items: flex-start;
+}
+.footer-block{
+	background-color: #BAE8E8;
+	padding: 25px 0;
+	margin-top: 50px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-facebook-f {
+    font-size: 15px;
+    padding-top: 5px;
+}
+.fab{   
+    border-radius: 100%;
+    background-color: #272343;
+    width: 25px;
+    height: 25px;
+    color: #BAE8E8;
+    text-align: center;
+}
+.fa-instagram {
+    font-size: 15px;
+    padding-top: 5px;
+    margin-left: 20px;
+}
+h4{
+    font-size: 24px;
+	color: #272343; 
+    font-family: 'Roboto';	
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.form-wrap{
+	width: 100%;
+    max-width: 630px;
+    width: 100%;
+}
+input{
+	width: 100%;
+	padding: 12px 20px;
+	margin-top: 14px;
+	margin-bottom: 10px;
+    border: 1px solid;
+    color: #272343;
+ }
+label{
+    font-size: 20px;
+    font-family: 'Roboto';	
+    color: #272343;
+}
+.textarea-block{
+	width: 100%;
+	padding: 12px 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 112px;	
+    border: 1px solid;
+    color: #272343;
+    font-family: 'Roboto';
+}
+.submit{
+	background-color: #272343;
+	color: #fff;
+	border: none; 
+	width: 150px;
+	height: 52px;
+	text-transform: uppercase;
+	font-size: 21px;
+	margin-top: 40px;
+	margin-bottom: 50px;	
+}
